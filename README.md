@@ -1,5 +1,6 @@
 # SePT_Stereo-Planetary-Tracks
 This repo releases a dataset to challenge object SLAM algorithms in an unstructured, weakly textured, and lunar terrain environment. All the data are collected from the Unreal Engine 4 with AirSim.
+
   ![Lunar GUI](https://github.com/miaTian99/SePT_Stereo-Planetary-Tracks/blob/main/assets/lunar%20GUI.png)
 ## 1. Simulation Engine:
 - Unreal Engine Version: 4.27.2
