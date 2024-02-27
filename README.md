@@ -1,10 +1,10 @@
 # SePT_Stereo-Planetary-Tracks
 This repo releases a dataset to challenge object SLAM algorithms in an unstructured, weakly textured, and lunar terrain environment. All the data are collected from the Unreal Engine 4 with AirSim.
-  ![Lunar GUI](https://drive.google.com/uc?id=18cPjTkezRLlM3LaDx51xgRpwiMWmKiFu)
+  ![Lunar GUI](https://github.com/miaTian99/SePT_Stereo-Planetary-Tracks/blob/main/assets/lunar%20GUI.png)
 ## 1. Simulation Engine:
 - Unreal Engine Version: 4.27.2
 - AirSim Sensors: Stereo Cameras (150 mm baseline), Lidar (128 channels), IMU
-- Setting Files: [Settings for lunar rover exploration]()
+- Setting Files: [Settings for lunar rover exploration](https://github.com/miaTian99/SePT_Stereo-Planetary-Tracks/blob/main/assets/settings.json)
 - Offical Guidelines: [AirSim](https://microsoft.github.io/AirSim/) 
 ## 2. Dataset Download Link:
 - SePT01 track: [Google Drive](https://drive.google.com/uc?export=download&id=11mJYHrdUd1CwxPjvXIs3pl1Rz6kTRJLI)
