@@ -1,0 +1,161 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+
+  "SimMode": "Car",
+  "PawnPaths": {
+    "DefaultQuadrotor": { "PawnBP": "Class'/Game/Vehicle/Ingenuity/BP_FlyingPawn.BP_FlyingPawn_C'" },
+    "DefaultCar": { "PawnBP": "Class'/Game/Vehicle/Perseverance/VehicleAdvPawn.VehicleAdvPawn_C'" }
+  },
+  "Vehicles": {
+    "moon_rover": {
+      "VehicleType": "PhysXCar",
+      "PawnPath": "BareboneCar",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "AllowAPIAlways": true,
+      "Sensors": {
+        "imu": {
+          "SensorType": 2,
+          "Enabled": true,
+          "AngularRandomWalk": 0.3,
+          "GyroBiasStabilityTau": 500,
+          "GyroBiasStability": 4.6,
+          "VelocityRandomWalk": 0.24,
+          "AccelBiasStabilityTau": 800,
+          "AccelBiasStability": 36,
+          "X": 1,
+          "Y": 0,
+          "Z": -1.3,
+          "Roll": 0,
+          "Pitch": 0,
+          "Yaw": 0
+        },
+        "lidar": {
+          "SensorType": 6,
+          "Enabled": true,
+          "Range": 30,
+          "NumberOfChannels": 128,
+          "RotationsPerSecond": 10,
+          "PointsPerSecond": 2000000,
+          "X": 1,
+          "Y": 0,
+          "Z": -1.3,
+          "Roll": 0,
+          "Pitch": 0,
+          "Yaw": 0,
+          "VerticalFOVUpper": 27,
+          "VerticalFOVLower": -25,
+          "HorizontalFOVStart": -60,
+          "HorizontalFOVEnd": 60,
+          "DrawDebugPoints": false,
+          "DataFrame": "VehicleInertialFrame"
+        }
+      },
+      "Cameras": {
+        "cam0": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 80,
+              "TargetGamma": 1.5
+            },
+            {
+              "ImageType": 2,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 80,
+              "TargetGamma": 1.5
+            },
+            {
+              "ImageType": 5,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 80,
+              "TargetGamma": 1.5
+            }
+          ],
+          "X": 1,
+          "Y": -0.075,
+          "Z": -1.3,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        },
+        "cam1": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 120,
+              "TargetGamma": 1.5
+            },
+            {
+              "ImageType": 2,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 120,
+              "TargetGamma": 1.5
+            },
+            {
+              "ImageType": 5,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 120,
+              "TargetGamma": 1.5
+            }
+          ],
+          "X": 1,
+          "Y": -0.05,
+          "Z": -1,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        },
+        "cam2": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 80,
+              "TargetGamma": 1.5
+            }
+          ],
+          "X": 1,
+          "Y": 0.075,
+          "Z": -1.3,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        },
+        "cam3": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1024,
+              "Height": 1024,
+              "FOV_Degrees": 120,
+              "TargetGamma": 1.5
+            }
+          ],
+          "X": 1,
+          "Y": 0.05,
+          "Z": -1,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        }
+      },
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "Pitch": 0,
+      "Roll": 0,
+      "Yaw": 0
+    }
+  }
+}
