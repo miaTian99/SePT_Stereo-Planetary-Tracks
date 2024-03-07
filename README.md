@@ -28,6 +28,8 @@ Thanks to work: [Image-Matching-Toolbox](https://github.com/GrumpyZhou/image-mat
 @article{Yaolin2024,
   title={LO-SLAM: Lunar Object-centric SLAM using Point Prompted SAM for Data Association},
   author={Yaolin Tian, Xue Wan, Shengyang Zhang, Jianhong Zuo, Yadong Shao, and Mengmeng Yang},
-  year={2024}
+  year={2024},
+  eprinttype={techRxiv},
+  doi={10.36227/techrxiv.170975343.37379344/v1}
 }
 ```
