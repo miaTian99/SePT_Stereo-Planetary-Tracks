@@ -23,13 +23,13 @@ Thanks to work: [Image-Matching-Toolbox](https://github.com/GrumpyZhou/image-mat
 [Paper](https://ieeexplore.ieee.org/abstract/document/9341757).
 ## 5. Contact:
 - Author: Yaolin Tian (email: tianyaolin21@mails.ucas.ac.cn)
-- paper is under submitting
+- The paper has been accepted by TGRS
 ```
-@article{Yaolin2024,
-  title={LO-SLAM: Lunar Object-centric SLAM using Point Prompted SAM for Data Association},
-  author={Yaolin Tian, Xue Wan, Shengyang Zhang, Jianhong Zuo, Yadong Shao, and Mengmeng Yang},
-  year={2024},
-  eprinttype={techRxiv},
-  doi={10.36227/techrxiv.170975343.37379344/v1}
+@article{Yaolin2025,
+  title={Lo-SLAM: Lunar Target-oriented SLAM Using Object Identification, Relative Navigation and Multi-level Mapping},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  author={Yaolin Tian, Xue Wan, Shengyang Zhang, Jianhong Zuo, Yadong Shao, Baichuan Liu, and Mengmeng Yang},
+  year={2025},
+  doi={10.1109/TGRS.2025.3547292}
 }
 ```
